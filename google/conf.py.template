@@ -1,0 +1,22 @@
+# COPY THIS FILE TO conf.py AND CHANGE THE SECRET INFORMATION
+
+# google documetn access information
+# see google dev console to find out how to get this infomration
+# and dont forget to grant read access for the sheet
+google = dict(
+      # The unique id for the sheet
+      sheetkey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+
+      # the name used for project access (also used as user to grant access in google)
+      project_id = "XXXX-XXXX-XXXX",
+
+      # the key-id and key used to access the document.
+      # to get information about how to create this, see: 
+      private_key_id = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      private_key = "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n",
+
+      # client id assigned from google dev
+      client_id =  "XXXXXXXXXXXXXXXXXXXXX")
+
+# Database access information
+db = dict(user = "USER", passwd = "PASSWORD", db = "DATABASE")
